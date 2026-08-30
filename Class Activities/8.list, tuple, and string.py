@@ -16,3 +16,7 @@ print(my_list[2])
 print(my_tuple[2])
 print(my_string[2])
 
+# Slice and print elements from index 2 to 5 from the list and the tuple.
+print("List elements from index 2 to 5:", my_list[2:6])
+print("Tuple elements from index 2 to 5:", my_tuple[2:6])
+
