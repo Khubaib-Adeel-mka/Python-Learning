@@ -1,2 +1,3 @@
 def styles():
-    print("="*80)
+    line = "="*80
+    return line
