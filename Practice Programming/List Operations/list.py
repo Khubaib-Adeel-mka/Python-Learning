@@ -1,4 +1,9 @@
+from styling import styles
 
+
+print("")
+print(styles())
+print("")
 
 # Creating A List
 fruits=["Mango","Apple","Banana"]
@@ -15,4 +20,6 @@ print("List After Replacing Apple with Grapes =",fruits)
 fruits.append("Pomegranate")
 print("List After adding Pomegranate at the End =",fruits)
 
+print("")
+print(styles())
 print("")
