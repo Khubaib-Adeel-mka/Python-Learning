@@ -26,3 +26,5 @@ print("Characters from index 7 to the end of string:", my_string[7:18])
 # Use negative indexing to print the last two elements from the list and the tuple.
 print("The last two elements of list:", my_list[-2], my_list[-1])
 
+# Use negative slicing to print characters from the second last to the last character of the string.
+print("The last two characters of string",my_string[-2], my_string[-1])
