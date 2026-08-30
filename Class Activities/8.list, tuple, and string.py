@@ -20,3 +20,6 @@ print(my_string[2])
 print("List elements from index 2 to 5:", my_list[2:6])
 print("Tuple elements from index 2 to 5:", my_tuple[2:6])
 
+# Slice and print characters from index 7 to the end of string.
+print("Characters from index 7 to the end of string:", my_string[7:18])
+
