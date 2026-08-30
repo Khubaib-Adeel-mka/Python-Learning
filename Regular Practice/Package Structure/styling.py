@@ -1,3 +1,3 @@
 def styles():
-    line = "="*80
+    line = "="*100
     return line
