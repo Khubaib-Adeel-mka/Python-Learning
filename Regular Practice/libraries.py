@@ -1,4 +1,6 @@
 
+# All the Libraries used in this code are Built-in.
+
 # Generate Random Number
 import random
 number=random.randint(1,10)
