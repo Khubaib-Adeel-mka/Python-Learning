@@ -5,6 +5,12 @@
 # 3. sort()
 # 4. reverse()
 
+from styling import styles
+
+print("")
+print(styles())
+print("")
+
 box_items=["books","novels","stories","dialogues"]
 
 # 1. Add "stationary" at the end.
@@ -23,3 +29,7 @@ print("Sorted list =",box_items)
 # 4. Reverese the sorted list.
 box_items.reverse()
 print("Unsorted list =",box_items)
+
+print("")
+print(styles())
+print("")
