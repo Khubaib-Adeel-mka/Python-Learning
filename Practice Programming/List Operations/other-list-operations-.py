@@ -20,3 +20,6 @@ print("Removed dialogues from the list =", box_items)
 box_items.sort()
 print("Sorted list =",box_items)
 
+# 4. Reverese the sorted list.
+box_items.reverse()
+print("Unsorted list =",box_items)
