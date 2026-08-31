@@ -11,7 +11,8 @@ box_items=["books","novels","stories","dialogues"]
 box_items.append("stationary")
 print("Added stationary and the end =",box_items)
 
+
 # 2. Remove "dialogues" from the list.
 box_items.remove("dialogues")
-print("Removed dialogues from the list =",box_items)
+print("Removed dialogues from the list =", box_items)
 
