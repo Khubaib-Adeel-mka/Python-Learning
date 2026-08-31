@@ -16,3 +16,7 @@ print("Added stationary and the end =",box_items)
 box_items.remove("dialogues")
 print("Removed dialogues from the list =", box_items)
 
+# 3. Sort the list.
+box_items.sort()
+print("Sorted list =",box_items)
+
