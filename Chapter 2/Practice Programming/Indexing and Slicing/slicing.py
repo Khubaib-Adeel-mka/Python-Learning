@@ -5,4 +5,4 @@ print("List from Index 2 to 8", fruits[2:9])
 print("List from index 6 to 9",fruits[6:10])
 
 # Slicing from Negative Index:
-print("List from index -2 to -8", fruits[-2:- 8])
+print("List from index -2 to -8", fruits[-8:- 2])
