@@ -22,7 +22,7 @@ print("List After Replacing Apple with Grapes =",fruits)
 fruits.append("Pomegranate")
 print("List After adding Pomegranate at the End =",fruits)
 
-print("Length of the list =",(len(fruits)))
+print("Length of the list =",(len(fruits)),"elements.")
 
 print("")
 print(styles())
