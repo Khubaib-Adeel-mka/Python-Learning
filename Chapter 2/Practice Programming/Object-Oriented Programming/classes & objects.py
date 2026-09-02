@@ -39,7 +39,7 @@ class Student:
             print("Fail")
 
 
-student1=Student("Khubaib",16,50)
+student1=Student("Ali",16,75)
 student1.show_info()
 
 student1.check_result()
