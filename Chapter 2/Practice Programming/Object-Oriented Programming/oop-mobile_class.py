@@ -45,3 +45,28 @@
 
 # This one tests whether you can make one returned calculation depend on another returned calculation.
 
+class Mobile:
+    def __init__ (self, brand, price, discount):
+        self.brand=brand
+        self.price=price
+        self.discount=discount
+
+    def show_info(self):
+        print(self.brand)
+        print(self.price)
+        print(self.discount)
+
+    def calculate_discount(self):
+        return (self.price*self.discount)/100
+    
+    def final_price(self):
+        return self.price - self.calculate_discount()
+    
+
+
+
+mobile1=Mobile("Samsung", 80000, 10)
+mobile1.show_info()
+
+final=mobile1.final_price()
+print(final)
