@@ -32,3 +32,21 @@
 # 1500
 
 # This challenge checks whether you understand that an object's attribute can be modified through a method.
+
+class BankAccount:
+    def __init__(self, account_holder, balance):
+        self.account_holder = account_holder
+        self.balance = balance
+
+    def show_balance(self):
+        print(self.account_holder)
+        print(self.balance)
+
+    def deposit(self, amount):
+        print(self.balance+amount)
+
+account_holder1=BankAccount("Ali", 1000)
+account_holder1.show_balance()
+
+amount=500
+account_holder1.deposit(amount)
