@@ -53,7 +53,6 @@ class BankAccount:
 
     def deposit(self, amount):
         self.balance=self.balance+amount
-        return self.balance
 
     def withdraw(self, amount):
         if amount <= self.balance:
