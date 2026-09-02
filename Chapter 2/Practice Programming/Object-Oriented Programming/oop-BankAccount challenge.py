@@ -43,7 +43,7 @@ class BankAccount:
         print(self.balance)
 
     def deposit(self, amount):
-        print(self.balance+amount)
+        self.balance=self.balance+amount
 
 account_holder1=BankAccount("Ali", 1000)
 account_holder1.show_balance()
