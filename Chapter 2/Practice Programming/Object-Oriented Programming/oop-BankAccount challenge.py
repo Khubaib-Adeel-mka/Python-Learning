@@ -50,3 +50,4 @@ account_holder1.show_balance()
 
 amount=500
 account_holder1.deposit(amount)
+account_holder1.show_balance()
