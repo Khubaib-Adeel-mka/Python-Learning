@@ -41,6 +41,7 @@
 
 # Try it without looking back at your previous BankAccount solution.
 
+
 class BankAccount:
     def __init__(self,name,balance):
         self.name=name
@@ -54,7 +55,7 @@ class BankAccount:
         self.balance=self.balance+amount
         return self.balance
 
-    def withdraw_amount(self, amount):
+    def withdraw(self, amount):
         if amount <= self.balance:
             self.balance=self.balance-amount
         else:
@@ -65,6 +66,6 @@ name1=BankAccount("Ali", 5000)
 name1.show_balance()
 
 name1.deposit(2000)
-name1.withdraw_amount(3000)
+name1.withdraw(3000)
 
 name1.show_balance()
