@@ -42,14 +42,12 @@ class Rectangle:
         print(self.length)
         print(self.width)
 
-    def calculate_area(self, length,width):
-        print(length*width)
+    def calculate_area(self):
+        return self.length * self.width
 
-
-length= 10
-width = 5
 
 rectangle1=Rectangle(10, 5)
 rectangle1.show_info()
 
-rectangle1.calculate_area(length,width)
+area_of_rectangle = rectangle1.calculate_area()
+print(area_of_rectangle)
