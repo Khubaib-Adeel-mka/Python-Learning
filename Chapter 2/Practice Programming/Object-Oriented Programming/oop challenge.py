@@ -31,6 +31,28 @@
 
 # Then call both methods for both objects.
 
-# The important new thing I'm testing is whether you understand that 
-# two objects created from the same class keep their own separate data.
+# The important new thing I'm testing is whether you understand that two objects created from the same class keep their own separate data.
 
+class Employee:
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+
+    def show_info(self):
+        print(self.name)
+        print(self.salary)
+
+    def check_salary(self):
+        if self.salary>= 50000:
+            print("High Salary")
+        else:
+            print("Normal Salary")
+
+employee1=Employee("Ali",60000)
+employee2=Employee("Ahmed",40000)
+
+employee1.show_info()
+employee1.check_salary()
+
+employee2.show_info()
+employee2.check_salary()
