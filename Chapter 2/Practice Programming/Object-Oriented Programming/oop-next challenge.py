@@ -30,3 +30,23 @@
 
 # Create one object and call both methods.
 
+class Car:
+    def __init__(self,brand,model,speed):
+        self.brand=brand
+        self.model=model
+        self.speed=speed
+
+    def show_info(self):
+        print(self.brand)
+        print(self.model)
+        print(self.speed)
+
+    def check_speed(self):
+        if (self.speed>=100):
+            print("Fast")
+        else:
+            print("Normal")
+
+car1=Car("Toyota","Corolla", 120)
+car1.show_info()
+car1.check_speed()
