@@ -50,7 +50,7 @@ class Student:
         return avg
     
     def check_result(self):
-        if self.calcu>=50:
+        if self.calculate_average()>=50:
             print("Pass")
         else:
             print("Fail")
