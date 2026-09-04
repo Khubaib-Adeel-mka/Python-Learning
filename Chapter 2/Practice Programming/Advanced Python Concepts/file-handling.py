@@ -9,17 +9,17 @@ with open("students.txt","r") as file:
 with open("students.txt", "a") as file:
     content=file.write("Khubaib\n")
 
-
 with open("students.txt","r"):
     content=file.read()
     print(content) 
 
-# with open("students.txt", "a") as file:
-#     content=file.write("Ahmed")
+# To overwrite "Adeel" to the content of students.txt:
+with open("students.txt", "a") as file:
+    content=file.write("Ahmed")
 
-# with open("students.txt","r") as file:
-#     content=file.read()
-#     print(content)
+with open("students.txt","r") as file:
+    content=file.read()
+    print(content)
 
 
 
