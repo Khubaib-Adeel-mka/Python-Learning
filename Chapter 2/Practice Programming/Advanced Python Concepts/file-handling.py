@@ -1,11 +1,25 @@
 
 
-with open("students.txt", "a") as file:
-    content=file.write("Ahmed")
-
+# To just read the students.txt:
 with open("students.txt","r") as file:
     content=file.read()
     print(content)
+
+# To append "Khuabib" at the end of students.txt:
+with open("students.txt", "a") as file:
+    content=file.write("Khubaib\n")
+
+
+with open("students.txt","r"):
+    content=file.read()
+    print(content) 
+
+# with open("students.txt", "a") as file:
+#     content=file.write("Ahmed")
+
+# with open("students.txt","r") as file:
+#     content=file.read()
+#     print(content)
 
 
 
