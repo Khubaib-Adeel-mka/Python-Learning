@@ -1,5 +1,7 @@
 
 
+# To execute the following programs, you must make your terminal come to this folder in order to access the "students.txt" file !!!
+
 # To read students.txt:
 with open("students.txt", "r") as file:
     content = file.read()
