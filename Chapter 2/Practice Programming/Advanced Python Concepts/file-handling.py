@@ -1,24 +1,25 @@
 
 
-# To just read the students.txt:
-with open("students.txt","r") as file:
-    content=file.read()
+# To read students.txt:
+with open("students.txt", "r") as file:
+    content = file.read()
     print(content)
 
-# To append "Khuabib" at the end of students.txt:
+# To append "Khubaib" at the end of students.txt:
 with open("students.txt", "a") as file:
-    content=file.write("Khubaib\n")
+    file.write("Khubaib\n")
 
-with open("students.txt","r"):
-    content=file.read()
-    print(content) 
+with open("students.txt", "r") as file:
+    content = file.read()
+    print(content)
 
-# To overwrite "Adeel" to the content of students.txt:
-with open("students.txt", "a") as file:
-    content=file.write("Ahmed")
+# To overwrite the content of students.txt:
+with open("students.txt", "w") as file:
+    file.write("Adeel")
 
-with open("students.txt","r") as file:
-    content=file.read()
+# Read the overwritten content:
+with open("students.txt", "r") as file:
+    content = file.read()
     print(content)
 
 
